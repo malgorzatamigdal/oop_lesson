@@ -19,9 +19,11 @@ IMAGES = {}
 TILE_WIDTH = 0
 TILE_HEIGHT = 0
 
+
 def setup_images():
     filenames = {
             "Wall": "Wall Block.png",
+            "Enemy": "Enemy Bug.png",
             "Block": "Plain Block.png",
             "GrassBlock": "Grass Block.png",
             "StoneBlock": "Stone Block.png",
@@ -29,6 +31,7 @@ def setup_images():
             "TallTree": "Tree Tall.png",
             "Rock": "Rock.png",
             "Chest": "Chest Closed.png",
+            "ChestOpen": "Chest Open.png",
             "DoorClosed": "Door Tall Closed.png",
             "DoorOpen": "Door Tall Open.png",
             "BlueGem": "Gem Blue.png",
